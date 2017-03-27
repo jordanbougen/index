@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8" />
+
+    <title> Javascript </title>
+
+  </head>
+
+  <body>
+
+    <h1> My first Javascript file </h1>
+
+    <script>
+      console.log('Hello World');
+
+      document.write('Hello with document.write');
+
+      var firstname = 'John';
+      var surname = 'Smith';
+      var x = 1; //var overrides variable. Don't use var when restating number.
+
+      console.log(firstname + ' ' + surname); // displays John Smith with a space between words.
+      console.log(x); //displays 1
+      console.log(x+2); //displays 3
+      console.log(x-2); //displays -1
+      console.log(x + surname); //displays 1Smith
+      console.log(x-surname); //Nan - Not a number = error
+      console.log(6/2); //displays 3
+      console.log(6*2) //displays 12
+      console.log(2*(3+1)); //Bedmas applies. Displays 8
+
+      x += 1; //x = x + 1;
+      console.log(x); //displays 2
+
+    </script>
+
+  </body>
+
+
+</html>
